@@ -1,0 +1,82 @@
+<odoo>
+    <!-- Rapports Admin (agrégés à partir des modèles pos_caisse/pos_livraison) -->
+    <record id="view_pos_admin_rapport_tree" model="ir.ui.view">
+        <field name="name">pos.admin.rapport.tree</field>
+        <field name="model">pos.admin.rapport</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="date_debut"/>
+                <field name="date_fin"/>
+                <field name="ca_total"/>
+                <field name="ca_cash"/>
+                <field name="ca_bp"/>
+                <field name="nb_commandes"/>
+                <field name="entrees"/>
+                <field name="depenses"/>
+                <field name="resultat"/>
+                <field name="nb_livraisons"/>
+                <field name="montant_livre_total"/>
+                <field name="sacs_sortis"/>
+                <field name="kg_sortis"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_pos_admin_rapport_form" model="ir.ui.view">
+        <field name="name">pos.admin.rapport.form</field>
+        <field name="model">pos.admin.rapport</field>
+        <field name="arch" type="xml">
+            <form string="Rapport POS">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="date_debut"/>
+                            <field name="date_fin"/>
+                        </group>
+                    </group>
+                    <group string="Chiffres Caisse" col="4">
+                        <field name="ca_total"/>
+                        <field name="ca_cash"/>
+                        <field name="ca_bp"/>
+                        <field name="nb_commandes"/>
+                    </group>
+                    <group string="Mouvements Caisse" col="3">
+                        <field name="entrees"/>
+                        <field name="depenses"/>
+                        <field name="resultat"/>
+                    </group>
+                    <group string="Livraison / Stock" col="4">
+                        <field name="nb_livraisons"/>
+                        <field name="montant_livre_total"/>
+                        <field name="sacs_sortis"/>
+                        <field name="kg_sortis"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Inherit pos.livraison.sortie.stock form to add validation controls -->
+    <record id="view_sortie_stock_inherit_admin" model="ir.ui.view">
+        <field name="name">pos.livraison.sortie.stock.form.inherit.admin</field>
+        <field name="model">pos.livraison.sortie.stock</field>
+        <field name="inherit_id" ref="pos_livraison.view_pos_livraison_sortie_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form/sheet" position="inside">
+                <group string="Validation">
+                    <field name="validated" readonly="1"/>
+                    <field name="validated_by" readonly="1"/>
+                    <field name="validated_at" readonly="1"/>
+                </group>
+            </xpath>
+            <!-- Bouton dans le corps du formulaire pour éviter la dépendance au header -->
+            <xpath expr="//form/sheet/group[last()]" position="after">
+                <group string="Actions">
+                    <button name="action_valider" type="object" string="Valider"
+                            attrs="{'invisible': [('validated','=',True)]}"
+                            class="oe_highlight" groups="pos_admin.group_pos_admin_manager"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

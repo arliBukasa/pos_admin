@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pos_admin_rapport_user,pos.admin.rapport.user,model_pos_admin_rapport,pos_admin.group_pos_admin_user,1,0,0,0
+access_pos_admin_rapport_manager,pos.admin.rapport.manager,model_pos_admin_rapport,pos_admin.group_pos_admin_manager,1,1,1,1
+access_pos_admin_sortie_stock_user,pos.admin.sortie.stock.user,model_pos_livraison_sortie_stock,pos_admin.group_pos_admin_user,1,0,0,0
+access_pos_admin_sortie_stock_manager,pos.admin.sortie.stock.manager,model_pos_livraison_sortie_stock,pos_admin.group_pos_admin_manager,1,1,0,0

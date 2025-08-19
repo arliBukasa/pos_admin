@@ -1,0 +1,20 @@
+<odoo>
+    <record id="action_pos_admin_rapport" model="ir.actions.act_window">
+        <field name="name">Rapports</field>
+        <field name="res_model">pos.admin.rapport</field>
+        <field name="view_mode">tree,form</field>
+        <field name="groups_id" eval="[(4, ref('pos_admin.group_pos_admin_manager'))]"/>
+    </record>
+
+    <record id="action_pos_admin_validation_stock" model="ir.actions.act_window">
+        <field name="name">Validation sorties de stock</field>
+        <field name="res_model">pos.livraison.sortie.stock</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[("validated","=",False)]</field>
+        <field name="groups_id" eval="[(4, ref('pos_admin.group_pos_admin_manager'))]"/>
+    </record>
+
+    <menuitem id="menu_pos_admin_root" name="POS Administration" sequence="40" groups="pos_admin.group_pos_admin_manager"/>
+    <menuitem id="menu_pos_admin_rapport" name="Rapports" parent="menu_pos_admin_root" action="action_pos_admin_rapport" groups="pos_admin.group_pos_admin_manager"/>
+    <menuitem id="menu_pos_admin_validation_stock" name="Validation sorties de stock" parent="menu_pos_admin_root" action="action_pos_admin_validation_stock" groups="pos_admin.group_pos_admin_manager"/>
+</odoo>
