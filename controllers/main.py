@@ -4,8 +4,10 @@ from datetime import datetime
 
 class PosAdminApi(http.Controller):
     @http.route('/api/pos_admin/rapports', type='json', auth='user', methods=['POST'], csrf=False)
+
     def get_rapports(self, **payload):
-        payload = payload or {}
+        params = http.request.jsonrequest or payload
+        payload = params
         date_debut = payload.get('date_debut')
         date_fin = payload.get('date_fin')
         try:
