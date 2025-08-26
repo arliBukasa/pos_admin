@@ -47,6 +47,7 @@ class PosAdminApi(http.Controller):
         # Sorties de stock (toutes)
         sorties = Sortie.search(date_domain('date'))
         sacs_sortie = sum(sorties.mapped('quantite_sacs')) if sorties else 0.0
+        montant_sorties = sum(sorties.mapped('montant')) if sorties else 0.0
         poids_sac = float(request.env['ir.config_parameter'].sudo().get_param('pos_livraison.poids_sac', 50))
         sacs_sortis = sacs_liv
         kg_sortis = sacs_sortis * poids_sac
@@ -65,6 +66,7 @@ class PosAdminApi(http.Controller):
             'montant_livre_total': montant_livre_total,
             'sacs_sortis': sacs_sortis,
             'sortie_stocks': sacs_sortie,
+            'montant_sorties': montant_sorties,
             'kg_sortis': kg_sortis,
         }
 
