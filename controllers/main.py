@@ -64,6 +64,7 @@ class PosAdminApi(http.Controller):
             'nb_livraisons': nb_livraisons,
             'montant_livre_total': montant_livre_total,
             'sacs_sortis': sacs_sortis,
+            'sortie_stocks': sacs_sortie,
             'kg_sortis': kg_sortis,
         }
 
