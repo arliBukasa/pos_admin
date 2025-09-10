@@ -1,0 +1,388 @@
+{
+    "jsonrpc": "2.0",
+    "id": null,
+    "result": {
+        "status": "success",
+        "date_debut": null,
+        "date_fin": null,
+        "ca_total": 49275500.0,
+        "ca_cash": 49262500.0,
+        "ca_bp": 13000.0,
+        "nb_commandes": 2391,
+        "entrees": 49250500.0,
+        "depenses": 7613300.0,
+        "resultat": 41637200.0,
+        "nb_livraisons": 2328,
+        "montant_livre_total": 51999000.0,
+        "sacs_sortis": 234.22972972972974,
+        "sortie_stocks": 23.306306306306308,
+        "montant_sorties": 5174000.0,
+        "kg_sortis": 11711.486486486487,
+        "sessions": [
+            {
+                "id": 18,
+                "name": "Livraison-2025-09-02",
+                "user_id": 8,
+                "user_name": "Bukulu Christ",
+                "state": "ouvert",
+                "date": "2025-09-02 15:17:26",
+                "date_cloture": null,
+                "stats": {
+                    "total_livraisons": 290,
+                    "montant_livre_total": 6079000.0,
+                    "sacs_livres_total": 27.38288288288295,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            },
+            {
+                "id": 17,
+                "name": "Livraison-2025-08-31",
+                "user_id": 8,
+                "user_name": "Bukulu Christ",
+                "state": "ferme",
+                "date": "2025-08-31 16:31:50",
+                "date_cloture": "2025-09-01 12:31:07",
+                "stats": {
+                    "total_livraisons": 205,
+                    "montant_livre_total": 5027500.0,
+                    "sacs_livres_total": 22.64639639639645,
+                    "sorties_sacs_total": 2.439189189189189,
+                    "sorties_kg_total": 121.95945945945948
+                }
+            },
+            {
+                "id": 16,
+                "name": "Livraison-2025-08-30",
+                "user_id": 7,
+                "user_name": "Nzinga-Enock",
+                "state": "ouvert",
+                "date": "2025-08-30 13:14:21",
+                "date_cloture": null,
+                "stats": {
+                    "total_livraisons": 481,
+                    "montant_livre_total": 11847500.0,
+                    "sacs_livres_total": 53.36711711711722,
+                    "sorties_sacs_total": 5.8558558558558556,
+                    "sorties_kg_total": 292.7927927927928
+                }
+            },
+            {
+                "id": 15,
+                "name": "Livraison-2025-08-28",
+                "user_id": 8,
+                "user_name": "Bukulu Christ",
+                "state": "ferme",
+                "date": "2025-08-28 12:21:11",
+                "date_cloture": "2025-08-30 13:08:50",
+                "stats": {
+                    "total_livraisons": 580,
+                    "montant_livre_total": 12440000.0,
+                    "sacs_livres_total": 56.03603603603618,
+                    "sorties_sacs_total": 5.454954954954955,
+                    "sorties_kg_total": 272.7477477477478
+                }
+            },
+            {
+                "id": 14,
+                "name": "Livraison-2025-08-27",
+                "user_id": 8,
+                "user_name": "Bukulu Christ",
+                "state": "ferme",
+                "date": "2025-08-27 20:05:53",
+                "date_cloture": "2025-08-28 12:20:29",
+                "stats": {
+                    "total_livraisons": 271,
+                    "montant_livre_total": 5971500.0,
+                    "sacs_livres_total": 26.898648648648695,
+                    "sorties_sacs_total": 3.2027027027027026,
+                    "sorties_kg_total": 160.13513513513513
+                }
+            },
+            {
+                "id": 13,
+                "name": "Livraison-2025-08-27",
+                "user_id": 7,
+                "user_name": "Nzinga-Enock",
+                "state": "ferme",
+                "date": "2025-08-27 13:04:19",
+                "date_cloture": "2025-08-27 20:03:29",
+                "stats": {
+                    "total_livraisons": 89,
+                    "montant_livre_total": 2021000.0,
+                    "sacs_livres_total": 9.103603603603604,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            },
+            {
+                "id": 12,
+                "name": "Livraison-2025-08-26",
+                "user_id": 7,
+                "user_name": "Nzinga-Enock",
+                "state": "ferme",
+                "date": "2025-08-26 13:46:54",
+                "date_cloture": "2025-08-27 06:45:37",
+                "stats": {
+                    "total_livraisons": 199,
+                    "montant_livre_total": 3401500.0,
+                    "sacs_livres_total": 15.322072072072105,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            },
+            {
+                "id": 11,
+                "name": "Livraison-2025-08-26",
+                "user_id": 8,
+                "user_name": "Bukulu Christ",
+                "state": "ferme",
+                "date": "2025-08-26 10:22:59",
+                "date_cloture": "2025-08-26 13:44:06",
+                "stats": {
+                    "total_livraisons": 133,
+                    "montant_livre_total": 4293500.0,
+                    "sacs_livres_total": 19.34009009009012,
+                    "sorties_sacs_total": 6.353603603603604,
+                    "sorties_kg_total": 317.6801801801802
+                }
+            },
+            {
+                "id": 10,
+                "name": "Livraison-2025-08-26",
+                "user_id": 8,
+                "user_name": "Bukulu Christ",
+                "state": "ferme",
+                "date": "2025-08-26 06:42:55",
+                "date_cloture": "2025-08-26 06:44:07",
+                "stats": {
+                    "total_livraisons": 1,
+                    "montant_livre_total": 2500.0,
+                    "sacs_livres_total": 0.01126126126126126,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            },
+            {
+                "id": 9,
+                "name": "Livraison-2025-08-25",
+                "user_id": 8,
+                "user_name": "Bukulu Christ",
+                "state": "ferme",
+                "date": "2025-08-25 20:31:27",
+                "date_cloture": "2025-08-25 20:31:30",
+                "stats": {
+                    "total_livraisons": 0,
+                    "montant_livre_total": 0.0,
+                    "sacs_livres_total": 0.0,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            },
+            {
+                "id": 8,
+                "name": "Livraison-2025-08-25",
+                "user_id": 8,
+                "user_name": "Bukulu Christ",
+                "state": "ferme",
+                "date": "2025-08-25 14: 24: 51",
+                "date_cloture": "2025-08-25 20: 30: 16",
+                "stats": {
+                    "total_livraisons": 79,
+                    "montant_livre_total": 915000.0,
+                    "sacs_livres_total": 4.12162162162162,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            },
+            {
+                "id": 7,
+                "name": "Livraison-2025-08-25",
+                "user_id": 8,
+                "user_name": "Bukulu Christ",
+                "state": "ferme",
+                "date": "2025-08-25 14: 12: 15",
+                "date_cloture": "2025-08-25 14: 24: 45",
+                "stats": {
+                    "total_livraisons": 0,
+                    "montant_livre_total": 0.0,
+                    "sacs_livres_total": 0.0,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            },
+            {
+                "id": 6,
+                "name": "Livraison-2025-08-22",
+                "user_id": 8,
+                "user_name": "Bukulu Christ",
+                "state": "ferme",
+                "date": "2025-08-22 14: 31: 00",
+                "date_cloture": "2025-08-22 14: 48: 17",
+                "stats": {
+                    "total_livraisons": 3,
+                    "montant_livre_total": 79000.0,
+                    "sacs_livres_total": 0.3558558558558559,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            },
+            {
+                "id": 5,
+                "name": "Livraison-2025-08-22",
+                "user_id": 7,
+                "user_name": "Nzinga-Enock",
+                "state": "ferme",
+                "date": "2025-08-22 14: 25: 39",
+                "date_cloture": "2025-08-22 14: 25: 42",
+                "stats": {
+                    "total_livraisons": 0,
+                    "montant_livre_total": 0.0,
+                    "sacs_livres_total": 0.0,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            },
+            {
+                "id": 4,
+                "name": "Livraison-2025-08-22",
+                "user_id": 8,
+                "user_name": "Bukulu Christ",
+                "state": "ferme",
+                "date": "2025-08-22 14: 20: 50",
+                "date_cloture": "2025-08-22 14: 21: 54",
+                "stats": {
+                    "total_livraisons": 0,
+                    "montant_livre_total": 0.0,
+                    "sacs_livres_total": 0.0,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            },
+            {
+                "id": 3,
+                "name": "Livraison-2025-08-22",
+                "user_id": 7,
+                "user_name": "Nzinga-Enock",
+                "state": "ferme",
+                "date": "2025-08-22 14: 17: 07",
+                "date_cloture": "2025-08-22 14: 25: 29",
+                "stats": {
+                    "total_livraisons": 0,
+                    "montant_livre_total": 0.0,
+                    "sacs_livres_total": 0.0,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            },
+            {
+                "id": 2,
+                "name": "Livraison-2025-08-22",
+                "user_id": 7,
+                "user_name": "Nzinga-Enock",
+                "state": "ferme",
+                "date": "2025-08-22 13: 59: 40",
+                "date_cloture": "2025-08-22 14: 14: 53",
+                "stats": {
+                    "total_livraisons": 2,
+                    "montant_livre_total": 45000.0,
+                    "sacs_livres_total": 0.20270270270270271,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            },
+            {
+                "id": 1,
+                "name": "Livraison-2025-08-22",
+                "user_id": 7,
+                "user_name": "Nzinga-Enock",
+                "state": "ferme",
+                "date": "2025-08-22 12: 27: 46",
+                "date_cloture": "2025-08-22 13: 59: 34",
+                "stats": {
+                    "total_livraisons": 4,
+                    "montant_livre_total": 283000.0,
+                    "sacs_livres_total": 1.2747747747747746,
+                    "sorties_sacs_total": 0.0,
+                    "sorties_kg_total": 0.0
+                }
+            }
+        ],
+        "caisse_sessions": [
+            {
+                "id": 33,
+                "name": "Session-2025-09-03",
+                "user_id": 10,
+                "user_name": "Buaka Christanvie",
+                "state": "ouvert",
+                "date": "2025-09-03 04: 27: 19",
+                "date_cloture": null,
+                "stats": {
+                    "total_commandes": 38,
+                    "total_montant": 815500.0,
+                    "total_mouvements": 38,
+                    "montant_en_caisse": 815500.0,
+                    "montant_sortie": 0.0,
+                    "total_bp": 0.0
+                }
+            },
+            {
+                "id": 32,
+                "name": "Session-2025-09-02",
+                "user_id": 10,
+                "user_name": "Buaka Christanvie",
+                "state": "ferme",
+                "date": "2025-09-02 12: 48: 24",
+                "date_cloture": "2025-09-03 04: 27: 14",
+                "stats": {
+                    "total_commandes": 231,
+                    "total_montant": 4481500.0,
+                    "total_mouvements": 231,
+                    "montant_en_caisse": 4481500.0,
+                    "montant_sortie": 0.0,
+                    "total_bp": 0.0
+                }
+            },
+            {
+                "id": 31,
+                "name": "Session-2025-09-01",
+                "user_id": 9,
+                "user_name": "Fila Tricia",
+                "state": "ferme",
+                "date": "2025-09-01 14: 36: 02",
+                "date_cloture": "2025-09-02 12: 06: 56",
+                "stats": {
+                    "total_commandes": 200,
+                    "total_montant": 4345500.0,
+                    "total_mouvements": 211,
+                    "montant_en_caisse": 3687500.0,
+                    "montant_sortie": 658000.0,
+                    "total_bp": 0.0
+                }
+            },
+            {
+                "id": 30,
+                "name": "Session-2025-09-01",
+                "user_id": 9,
+                "user_name": "Fila Tricia",
+                "state": "ferme",
+                "date": "2025-09-01 12: 30: 24",
+                "date_cloture": "2025-09-01 14: 35: 58",
+                "stats": {
+                    "total_commandes": 57,
+                    "total_montant": 1179500.0,
+                    "total_mouvements": 57,
+                    "montant_en_caisse": 1179500.0,
+                    "montant_sortie": 0.0,
+                    "total_bp": 0.0
+                }
+            },
+            {
+                "id": 29,
+                "name": "Session-2025-08-31",
+                "user_id": 10,
+                "user_name": "Buaka Christanvie",
+                "state": "ferme",
+                "date": "2025-08-31 122025-09-03 10: 33: 54.179 : 36: 28",
+                "date_cloture": "2025-09-01 12: 14: 01", 
+                "stats": {"total_commandes": 215, "total_montant": 4776000.0, "total_mouvements": 225, "montant_en_caisse": 3591000.0, "montant_sortie": 1175000.0, "total_bp": 10000.0}}, {"id": 28, "name": "Session-2025-08-30", "user_id": 9, "user_name": "Fila Tricia", "state": "ferme", "date": "2025-08-30 12: 14: 07", "date_cloture": "2025-08-31 12: 34: 05", "stats": {"total_commandes": 259, "total_montant": 6448000.0, "total_mouvements": 269, "montant_en_caisse": 5544000.0, "montant_sortie": 904000.0, "total_bp": 0.0}}, {"id": 27, "name": "Session-2025-08-29", "user_id": 10, "user_name": "Buaka Christanvie", "state": "ferme", "date": "2025-08-29 18: 29: 06", "date_cloture": "2025-08-31 12: 36: 23", "stats": {"total_commandes": 95, "total_montant": 2172500.0, "total_mouvements": 105, "montant_en_caisse": 1719500.0, "montant_sortie": 453000.0, "total_bp": 0.0}}, {"id": 26, "name": "Session-2025-08-29", "user_id": 10, "user_name": "Buaka Christanvie", "state": "ferme", "date": "2025-08-29 11: 49: 33", "date_cloture": "2025-08-29 18: 28: 21", "stats": {"total_commandes": 219, "total_montant": 4629000.0, "total_mouvements": 219, "montant_en_caisse": 4629000.0, "montant_sortie": 0.0, "total_bp": 0.0}}, {"id": 25, "name": "Session-2025-08-28", "user_id": 9, "user_name": "Fila Tricia", "state": "ferme", "date": "2025-08-28 12: 40: 52", "date_cloture": "2025-08-29 11: 47: 58", "stats": {"total_commandes": 288, "total_montant": 5455000.0, "total_mouvements": 295, "montant_en_caisse": 4521500.0, "montant_sortie": 933500.0, "total_bp": 0.0}}, {"id": 24, "name": "Session-2025-08-27", "user_id": 10, "user_name": "Buaka Christanvie", "state": "ferme", "date": "2025-08-27 12: 41: 20", "date_cloture": "2025-08-28 12: 03: 53", "stats": {"total_commandes": 269, "total_montant": 5190500.0, "total_mouvements": 278, "montant_en_caisse": 4778500.0, "montant_sortie": 412000.0, "total_bp": 0.0}}, {"id": 23, "name": "Session-2025-08-26", "user_id": 9, "user_name": "Fila Tricia", "state": "ferme", "date": "2025-08-26 11: 59: 51", "date_cloture": "2025-08-27 18: 00: 39", "stats": {"total_commandes": 265, "total_montant": 4980000.0, "total_mouvements": 269, "montant_en_caisse": 2297200.0, "montant_sortie": 2679800.0, "total_bp": 3000.0}}, {"id": 22, "name": "Session-2025-08-26", "user_id": 10, "user_name": "Buaka Christanvie", "state": "ferme", "date": "2025-08-26 06: 57: 04", "date_cloture": "2025-08-26 11: 56: 42", "stats": {"total_commandes": 9, "total_montant": 119000.0, "total_mouvements": 15, "montant_en_caisse": -278000.0, "montant_sortie": 397000.0, "total_bp": 0.0}}, {"id": 21, "name": "Session-2025-08-25", "user_id": 10, "user_name": "Buaka Christanvie", "state": "ferme", "date": "2025-08-25 20: 56: 29", "date_cloture": "2025-08-26 06: 55: 55", "stats": {"total_commandes": 57, "total_montant": 1558000.0, "total_mouvements": 57, "montant_en_caisse": 1558000.0, "montant_sortie": 0.0, "total_bp": 0.0}}, {"id": 20, "name": "Session-2025-08-25", "user_id": 10, "user_name": "Buaka Christanvie", "state": "ferme", "date": "2025-08-25 14: 13: 45", "date_cloture": "2025-08-25 20: 53: 35", "stats": {"total_commandes": 184, "total_montant": 2981500.0, "total_mouvements": 183, "montant_en_caisse": 2969500.0, "montant_sortie": 0.0, "total_bp": 0.0}}, {"id": 19, "name": "Session-2025-08-25", "user_id": 10, "user_name": "Buaka Christanvie", "state": "ferme", "date": "2025-08-25 13: 31: 14", "date_cloture": "2025-08-25 14: 13: 42", "stats": {"total_commandes": 5, "total_montant": 144000.0, "total_mouvements": 6, "montant_en_caisse": 143000.0, "montant_sortie": 1000.0, "total_bp": 0.0}}]}}

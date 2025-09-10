@@ -18,6 +18,12 @@ class PosAdminApi(http.Controller):
         session_ids = payload.get('session_ids') or payload.get('sessions') or []
         # Client sends 'caisse_sessions' (Android DTO); accept legacy 'sessions_caisse' too
         sessions_caisse = payload.get('caisse_sessions') or payload.get('sessions_caisse') or []
+        # si la date debut et date fin ne sont pas fournies, on prend la date du jour pour date de fin et date hier pour date de debut
+        if not date_fin:
+            date_fin = fields.Date.context_today(request.env.user)
+        if not date_debut:
+            date_debut = fields.Date.context_today(request.env.user) - td(days=1)
+        
         logging.info("================= Récupération des rapports: %s | %s| %s", payload, sessions_caisse, session_ids)
         if isinstance(session_ids, int):
             session_ids = [session_ids]
